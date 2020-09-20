@@ -8,17 +8,19 @@ import Footer from './components/Footer/Footer'
 
 import GlobalStyle from './globalStyles'
 
-function App() {
+const App = () => {
   return (
-    <Router>
-      <GlobalStyle />
-      <Header />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/services" component={About} />
-      </Switch>
-      <Footer />
-    </Router>
+    <div>
+      <Router>
+        <GlobalStyle />
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+        </Switch>
+        <Footer />
+      </Router>
+    </div>
   )
 }
 

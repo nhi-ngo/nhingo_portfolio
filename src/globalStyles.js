@@ -6,8 +6,9 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
   font-family: "Helvetica Neue", sans-serif;
- }
+  }
 `
+
 export const Container = styled.div`
   width: 100%;
   max-width: 1300px;
