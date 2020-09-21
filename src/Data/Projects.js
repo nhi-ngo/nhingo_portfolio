@@ -34,7 +34,7 @@ export const projects = [
     description: 'Personal portfolio (the source for this website).',
     tech: 'React',
     code: 'https://github.com/nhi-ngo/nhingo_portfolio',
-    live: '',
+    live: 'https://www.nhingo.com/',
     img: '/images/portfolio.png',
     alt: 'screenshot of portfolio',
   },
