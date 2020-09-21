@@ -42,5 +42,5 @@ export const SkillTags = styled.ul`
 `
 
 export const Tag = styled.li`
-  /* font-size: 1.4rem; */
+  letter-spacing: 0.05rem;
 `
