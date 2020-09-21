@@ -8,11 +8,11 @@ export const HeaderWrap = styled.header`
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 1;
+  z-index: 3;
 `
 
 export const HeaderContainer = styled.div`
-  width: 900px;
+  width: 930px;
   display: flex;
   justify-content: space-between;
   align-items: center;

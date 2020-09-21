@@ -1,7 +1,6 @@
 import React from 'react'
 import { projects } from '../../data/Projects'
-import Hero from '../../components/Hero/Hero'
-import Projects from '../../components/Projects/Projects'
+import { Hero, Projects } from '../../components'
 
 import { ProjectsHeading, ProjectsWrapper } from './Home.elements'
 

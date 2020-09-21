@@ -1,13 +1,8 @@
 import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   & > * {
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin: 0 10px 20px;
   }
 `
 export const ProjectCard = styled.div`

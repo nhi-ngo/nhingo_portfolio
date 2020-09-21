@@ -19,13 +19,6 @@ export const ContactContainer = styled.div`
   margin-bottom: 3rem;
 `
 
-// export const ContactTitle = styled.h3`
-//   margin-right: 2rem;
-//   font-size: 2.5rem;
-//   font-weight: 500;
-//   color: #27303b;
-// `
-
 export const ContactLink = styled.a`
   color: #fff;
   font-weight: 500;
@@ -40,8 +33,8 @@ export const ContactLink = styled.a`
     -webkit-text-fill-color: transparent;
   }
 
-  @media screen and (max-width: 632px) {
-    font-size: 2.5rem;
+  @media screen and (max-width: 768px) {
+    font-size: 4.5vh;
   }
 `
 

@@ -16,7 +16,6 @@ function Footer() {
   return (
     <FooterContainer>
       <ContactContainer>
-        {/* <ContactTitle>Looking for a front-end developer?</ContactTitle> */}
         <ContactLink href="mailto:nhingo.y@gmail.com" target="_blank" email>
           Let's connect
         </ContactLink>

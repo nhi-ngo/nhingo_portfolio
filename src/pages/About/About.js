@@ -37,7 +37,10 @@ function About() {
         </AboutInfo>
 
         <Skills>
-          <SkillTitle>Skills & Tools</SkillTitle>
+          <SkillTitle>
+            Skills & Tools
+            <span style={{ color: '#7282eb' }}>_</span>
+          </SkillTitle>
           <SkillTags>
             <Tag>HTML</Tag>
             <Tag>CSS</Tag>

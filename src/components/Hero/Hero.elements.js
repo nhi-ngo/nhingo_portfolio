@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { lighten } from 'polished'
 
 export const HeroWrap = styled.section`
   background-color: #fff;
@@ -7,10 +8,11 @@ export const HeroWrap = styled.section`
   justify-content: center;
   padding: 0 2rem;
   position: relative;
+  z-index: 2;
 `
 
 export const HeroContainer = styled.div`
-  max-width: 900px;
+  max-width: 930px;
 `
 
 export const HeroTitleWrap = styled.div`
@@ -21,11 +23,21 @@ export const HeroTitleWrap = styled.div`
 `
 export const HeroTitle = styled.h1`
   color: #27303b;
-  font-size: 3.5rem;
+  font-size: 6.5vmin;
   font-weight: 500;
   line-height: 1;
 
   @media screen and (max-width: 768px) {
-    font-size: 8vw;
+    font-size: 4.5vh;
+  }
+`
+export const HeroSpan = styled.span`
+  color: ${lighten(0.1, '#607CC7')};
+  transition: color 250ms ease-out;
+
+  &:hover {
+    background: -webkit-linear-gradient(-133deg, #99a3e8 0%, #8fbbe4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 `

@@ -2,9 +2,8 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Home from './pages/Home/Home'
-import Header from './components/Header/Header'
 import About from './pages/About/About'
-import Footer from './components/Footer/Footer'
+import { Header, Footer } from './components'
 
 import GlobalStyle from './globalStyles'
 

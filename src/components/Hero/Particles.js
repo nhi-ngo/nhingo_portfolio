@@ -8,9 +8,8 @@ const Canvas = () => {
         position: 'absolute',
         top: 0,
         left: 0,
-        zIndex: 1,
+        zIndex: -1,
       }}
-      // {...this.state}
       params={{
         particles: {
           number: {
