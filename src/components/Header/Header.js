@@ -28,7 +28,7 @@ function Header() {
       <HeaderContainer>
         <HeaderLogo to="/" style={{ color: textColor }} onClick={revertStyles}>
           Nhi Ngo
-          <HeaderText>portfolio</HeaderText>
+          <HeaderText to="/">portfolio</HeaderText>
         </HeaderLogo>
         <HeaderList>
           <HeaderLink to="/about" onClick={getStyles}>

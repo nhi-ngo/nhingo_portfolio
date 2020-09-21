@@ -29,4 +29,13 @@ export const projects = [
     img: '/images/frontend.png',
     alt: 'screenshot of frontend page',
   },
+  {
+    title: 'nhingo_portfolio',
+    description: 'Personal portfolio (the source for this website).',
+    tech: 'React',
+    code: 'https://github.com/nhi-ngo/nhingo_portfolio',
+    live: '',
+    img: '/images/portfolio.png',
+    alt: 'screenshot of portfolio',
+  },
 ]

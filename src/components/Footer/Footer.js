@@ -16,9 +16,9 @@ function Footer() {
   return (
     <FooterContainer>
       <ContactContainer>
-        <ContactTitle>Looking for a front-end developer?</ContactTitle>
+        {/* <ContactTitle>Looking for a front-end developer?</ContactTitle> */}
         <ContactLink href="mailto:nhingo.y@gmail.com" target="_blank" email>
-          Let's chat
+          Let's connect
         </ContactLink>
       </ContactContainer>
 
@@ -27,7 +27,7 @@ function Footer() {
           <HiOutlineMail />
         </SocialIconLink>
 
-        <SocialIconLink href="https://github.com/nhiyngo" target="_blank" github>
+        <SocialIconLink href="https://github.com/nhi-ngo" target="_blank" github>
           <FaGithub />
         </SocialIconLink>
 

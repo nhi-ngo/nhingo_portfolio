@@ -9,7 +9,10 @@ function Home() {
   return (
     <div>
       <Hero />
-      <ProjectsHeading>Projects</ProjectsHeading>
+      <ProjectsHeading>
+        Projects
+        <span style={{ color: '#7282eb' }}>_</span>
+      </ProjectsHeading>
       <ProjectsWrapper>
         {projects.map((project) => (
           <Projects key={project.title} project={project} />

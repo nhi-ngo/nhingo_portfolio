@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const AboutWrap = styled.header`
   background-color: #1e1e20;
   color: #fff;
-  padding: 4rem 3rem 6rem;
+  padding: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;

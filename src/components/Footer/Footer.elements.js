@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const FooterContainer = styled.div`
   background-color: #1e1e20;
-  padding: 2rem 0 1rem;
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,34 +10,27 @@ export const FooterContainer = styled.div`
 `
 
 export const ContactContainer = styled.div`
-  background-image: linear-gradient(-133deg, #7282eb, #74aee3);
+  background-image: linear-gradient(-120deg, #7282eb, #74aee3);
   width: 100vw;
-  height: 76vh;
-  padding: 0 1rem;
+  padding: 7rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -2rem;
+  margin-bottom: 3rem;
 `
 
-export const ContactTitle = styled.h3`
-  margin-right: 2rem;
-  font-size: 2.5rem;
-  color: #27303b;
+// export const ContactTitle = styled.h3`
+//   margin-right: 2rem;
+//   font-size: 2.5rem;
+//   font-weight: 500;
+//   color: #27303b;
+// `
 
-  @media screen and (max-width: 1069px) {
-    font-size: 2rem;
-  }
-
-  @media screen and (max-width: 819px) {
-    font-size: 1.5rem;
-  }
-`
 export const ContactLink = styled.a`
   color: #fff;
   font-weight: 500;
   text-decoration: none;
-  font-size: 7vw;
+  font-size: 6vw;
   transition: color 150ms ease-out;
   white-space: nowrap;
 
@@ -47,12 +40,8 @@ export const ContactLink = styled.a`
     -webkit-text-fill-color: transparent;
   }
 
-  @media screen and (max-width: 1069px) {
-    font-size: 6vw;
-  }
-
-  @media screen and (max-width: 636px) {
-    font-size: 1.5rem;
+  @media screen and (max-width: 632px) {
+    font-size: 2.5rem;
   }
 `
 
@@ -66,7 +55,6 @@ export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 25px;
   margin: 1rem;
-  /* padding-top: 20px; */
 
   &:hover {
     color: ${(props) =>

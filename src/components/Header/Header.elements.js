@@ -8,7 +8,7 @@ export const HeaderWrap = styled.header`
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 200;
+  z-index: 1;
 `
 
 export const HeaderContainer = styled.div`

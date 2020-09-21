@@ -1,4 +1,5 @@
 import React from 'react'
+import Particles from './Particles'
 
 import { HeroWrap, HeroContainer, HeroTitle, HeroTitleWrap } from './Hero.elements'
 
@@ -7,11 +8,10 @@ function Hero() {
     <HeroWrap>
       <HeroContainer>
         <HeroTitleWrap>
-          <HeroTitle>
-            My name is Nhi Ngo &amp; I build things on the Internet.
-          </HeroTitle>
+          <HeroTitle>My name is Nhi Ngo &amp; I build things on the web.</HeroTitle>
         </HeroTitleWrap>
       </HeroContainer>
+      <Particles />
     </HeroWrap>
   )
 }

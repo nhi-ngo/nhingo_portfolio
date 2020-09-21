@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
 
   & > * {
     margin-bottom: 20px;
@@ -12,7 +14,7 @@ export const ProjectCard = styled.div`
   border-radius: 5px;
   background-color: #fff;
   overflow: hidden;
-  height: 440px;
+  height: 435px;
   width: 300px;
   text-decoration: none;
   display: flex;
@@ -46,7 +48,7 @@ export const Tech = styled.p`
   color: #fff;
   font-size: 0.8rem;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 7px;
 `
 

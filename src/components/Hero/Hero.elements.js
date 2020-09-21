@@ -6,6 +6,7 @@ export const HeroWrap = styled.section`
   display: flex;
   justify-content: center;
   padding: 0 2rem;
+  position: relative;
 `
 
 export const HeroContainer = styled.div`
@@ -23,4 +24,8 @@ export const HeroTitle = styled.h1`
   font-size: 3.5rem;
   font-weight: 500;
   line-height: 1;
+
+  @media screen and (max-width: 768px) {
+    font-size: 8vw;
+  }
 `
