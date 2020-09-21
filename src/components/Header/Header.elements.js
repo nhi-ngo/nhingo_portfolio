@@ -12,7 +12,7 @@ export const HeaderWrap = styled.header`
 `
 
 export const HeaderContainer = styled.div`
-  width: 930px;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,7 +20,7 @@ export const HeaderContainer = styled.div`
 
 export const HeaderLogo = styled(Link)`
   color: #27303b;
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: 500;
   line-height: 1;
   text-decoration: none;
@@ -29,7 +29,7 @@ export const HeaderLogo = styled(Link)`
 export const HeaderLink = styled(Link)`
   text-decoration: none;
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   color: ${lighten(0.1, '#607CC7')};
   transition: color 250ms ease-out;
   cursor: pointer;

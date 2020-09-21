@@ -12,7 +12,7 @@ export const HeroWrap = styled.section`
 `
 
 export const HeroContainer = styled.div`
-  max-width: 930px;
+  width: 1200px;
 `
 
 export const HeroTitleWrap = styled.div`
@@ -23,13 +23,9 @@ export const HeroTitleWrap = styled.div`
 `
 export const HeroTitle = styled.h1`
   color: #27303b;
-  font-size: 6.5vmin;
+  font-size: 7.3vmin;
   font-weight: 500;
   line-height: 1;
-
-  @media screen and (max-width: 768px) {
-    font-size: 4.5vh;
-  }
 `
 export const HeroSpan = styled.span`
   color: ${lighten(0.1, '#607CC7')};

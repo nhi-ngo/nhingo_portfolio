@@ -11,9 +11,9 @@ export const projects = [
   },
 
   {
-    title: '5 days Weather Forecast',
+    title: '5-day Weather Forecast',
     description:
-      'Get current weather and 3-hourly forecast 5 days for your city with its google map embedded.',
+      'Get current weather and 5-day forecast average for your city with its google map embedded.',
     tech: 'React',
     code: 'https://github.com/nhi-ngo/weather-react-redux',
     live: 'https://5daysweather.netlify.app/',

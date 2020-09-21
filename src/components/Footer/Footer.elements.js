@@ -16,7 +16,7 @@ export const ContactContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 `
 
 export const ContactLink = styled.a`
@@ -46,7 +46,7 @@ export const SocialIcons = styled.div`
 
 export const SocialIconLink = styled.a`
   color: #fff;
-  font-size: 25px;
+  font-size: 30px;
   margin: 1rem;
 
   &:hover {
@@ -59,4 +59,5 @@ export const SocialIconLink = styled.a`
 
 export const WebsiteRights = styled.small`
   color: #a3afbf;
+  font-size: 1rem;
 `

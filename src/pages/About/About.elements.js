@@ -10,7 +10,7 @@ export const AboutWrap = styled.header`
   line-height: 2;
 `
 export const AboutContainer = styled.div`
-  width: 930px;
+  width: 1200px;
 `
 
 export const AboutTitle = styled.h1`
@@ -19,7 +19,11 @@ export const AboutTitle = styled.h1`
   letter-spacing: 0.5rem;
 
   @media screen and (max-width: 601px) {
-    font-size: 2rem;
+    font-size: 4vh;
+  }
+
+  @media screen and (max-width: 563px) {
+    line-height: 2.5rem;
   }
 `
 
@@ -33,8 +37,8 @@ export const AboutText = styled.p`
   margin-bottom: 25px;
   letter-spacing: 0.03rem;
 
-  @media screen and (max-width: 601px) {
-    font-size: 1.2rem;
+  @media screen and (max-width: 636px) {
+    font-size: 2vh;
   }
 `
 
@@ -51,5 +55,6 @@ export const SkillTags = styled.ul`
 `
 
 export const Tag = styled.li`
+  font-size: 1.1rem;
   letter-spacing: 0.09rem;
 `
