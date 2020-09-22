@@ -20,7 +20,6 @@ export const ProjectCard = styled.div`
   }
 
   @media screen and (max-width: 718px) {
-    width: 250px;
     height: auto;
   }
 `
@@ -44,7 +43,7 @@ export const ProjectInfo = styled.div`
 export const Tech = styled.p`
   background-color: #7282eb;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: bold;
   border-radius: 5px;
   padding: 7px;
@@ -56,7 +55,7 @@ export const Title = styled.h4`
   margin-top: 10px;
 
   @media screen and (max-width: 718px) {
-    font-size: 2vh;
+    font-size: 2.3vh;
   }
 `
 

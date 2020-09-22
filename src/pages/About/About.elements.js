@@ -3,11 +3,15 @@ import styled from 'styled-components'
 export const AboutWrap = styled.header`
   background-color: #1e1e20;
   color: #fff;
-  padding: 3rem;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 2;
+
+  @media screen and (max-width: 520px) {
+    padding: 1rem;
+  }
 `
 export const AboutContainer = styled.div`
   width: 1200px;
@@ -24,6 +28,12 @@ export const AboutTitle = styled.h1`
 
   @media screen and (max-width: 563px) {
     line-height: 2.5rem;
+    font-size: 3.6vh;
+    letter-spacing: 0.35rem;
+  }
+
+  @media screen and (max-width: 453px) {
+    letter-spacing: 0.25rem;
   }
 `
 

@@ -9,6 +9,10 @@ export const HeroWrap = styled.section`
   padding: 0 2rem;
   position: relative;
   z-index: 2;
+
+  @media screen and (max-width: 520px) {
+    padding: 0 1rem;
+  }
 `
 
 export const HeroContainer = styled.div`
@@ -20,6 +24,10 @@ export const HeroTitleWrap = styled.div`
   align-items: center;
   height: 100%;
   transform: translateY(-11%);
+
+  @media screen and (max-width: 520px) {
+    transform: translateY(-20%);
+  }
 `
 export const HeroTitle = styled.h1`
   color: #27303b;

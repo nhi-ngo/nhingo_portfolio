@@ -9,6 +9,10 @@ export const HeaderWrap = styled.header`
   align-items: center;
   position: relative;
   z-index: 3;
+
+  @media screen and (max-width: 520px) {
+    padding: 2rem 1rem 4rem;
+  }
 `
 
 export const HeaderContainer = styled.div`
@@ -26,6 +30,7 @@ export const HeaderLogo = styled(Link)`
   text-decoration: none;
   cursor: pointer;
 `
+
 export const HeaderLink = styled(Link)`
   text-decoration: none;
   font-weight: 500;
@@ -38,6 +43,10 @@ export const HeaderLink = styled(Link)`
     background: -webkit-linear-gradient(-133deg, #99a3e8 0%, #8fbbe4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 1.2rem;
   }
 `
 
