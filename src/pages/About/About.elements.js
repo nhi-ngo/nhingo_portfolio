@@ -15,11 +15,12 @@ export const AboutWrap = styled.header`
 `
 export const AboutContainer = styled.div`
   width: 1200px;
+  font-weight: 300;
 `
 
 export const AboutTitle = styled.h1`
-  font-weight: 500;
   font-size: 6.8vmin;
+  font-weight: 300;
   letter-spacing: 0.5rem;
 
   @media screen and (max-width: 601px) {
@@ -43,7 +44,6 @@ export const AboutInfo = styled.div`
 
 export const AboutText = styled.p`
   font-size: 2.8vmin;
-  font-weight: 300;
   margin-bottom: 25px;
   letter-spacing: 0.03rem;
 

@@ -6,17 +6,16 @@ export const ProjectsContainer = styled.div`
   }
 `
 export const ProjectCard = styled.div`
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: #fff;
   overflow: hidden;
-  height: 495px;
-  width: 340px;
+  height: 475px;
+  width: 330px;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
+  font-size: 0.9rem;
 
   & > * {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   @media screen and (max-width: 718px) {
@@ -34,6 +33,7 @@ export const ProjectInfo = styled.div`
   flex-direction: column;
   align-items: flex-start;
   padding: 0 1rem;
+  margin-top: 5px;
 
   & > * {
     margin-bottom: 10px;
@@ -42,26 +42,24 @@ export const ProjectInfo = styled.div`
 
 export const Tech = styled.p`
   background-color: #7282eb;
+  font-weight: 500;
   color: #fff;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 7px;
 `
 
 export const Title = styled.h4`
-  font-size: 1.4rem;
-  font-weight: 500;
-  margin-top: 10px;
+  font-size: 1.1rem;
+  margin: 6px 0;
 
   @media screen and (max-width: 718px) {
-    font-size: 2.3vh;
+    font-size: 1.9vh;
   }
 `
 
 export const Description = styled.p`
-  font-size: 1.15rem;
-  opacity: 0.6;
+  font-size: 0.95rem;
+  opacity: 0.7;
 
   @media screen and (max-width: 718px) {
     display: none;
@@ -73,7 +71,6 @@ export const LinkContainer = styled.div`
 `
 
 export const ProjectLink = styled.a`
-  font-size: 1.15rem;
   font-weight: 700;
   color: #2a5aa7;
   background: linear-gradient(transparent 70%, #dbe4ff 0);
@@ -83,9 +80,5 @@ export const ProjectLink = styled.a`
   &:hover {
     color: #222;
     background: linear-gradient(transparent 70%, #bac8ff 0);
-  }
-
-  @media screen and (max-width: 718px) {
-    font-size: 1rem;
   }
 `

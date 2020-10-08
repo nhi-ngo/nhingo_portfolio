@@ -4,7 +4,6 @@ import { HiOutlineMail } from 'react-icons/hi'
 
 import {
   ContactContainer,
-  ContactTitle,
   ContactLink,
   FooterContainer,
   SocialIcons,

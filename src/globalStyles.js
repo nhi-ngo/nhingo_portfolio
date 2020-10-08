@@ -8,7 +8,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body, html {
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: 'Poppins', sans-serif;
+    animation: fadein ease-in-out 0.8s;
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 `
 

@@ -42,11 +42,11 @@ function About() {
             <span style={{ color: '#7282eb' }}>_</span>
           </SkillTitle>
           <SkillTags>
+            <Tag>Git</Tag>
             <Tag>HTML</Tag>
             <Tag>CSS</Tag>
-            <Tag>Javascript</Tag>
-            <Tag>React</Tag>
-            <Tag>Git</Tag>
+            <Tag>JavaScript</Tag>
+            <Tag>React, Redux</Tag>
             <Tag>Command Line</Tag>
           </SkillTags>
         </Skills>

@@ -60,4 +60,5 @@ export const SocialIconLink = styled.a`
 export const WebsiteRights = styled.small`
   color: #a3afbf;
   font-size: 1rem;
+  font-weight: 300;
 `

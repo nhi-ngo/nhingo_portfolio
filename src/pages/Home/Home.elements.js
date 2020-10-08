@@ -7,12 +7,13 @@ export const ProjectsWrapper = styled.section`
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 5rem;
+  font-weight: 300;
 `
 
 export const ProjectsHeading = styled.h1`
   background-color: #1e1d20;
   color: #fff;
-  font-size: 8vmin;
+  font-size: 7vmin;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.09rem;
