@@ -24,13 +24,14 @@ export const ContactLink = styled.a`
   font-weight: 500;
   text-decoration: none;
   font-size: 6vw;
-  transition: color 150ms ease-out;
   white-space: nowrap;
+  transition: color 150ms ease-out;
 
   &:hover {
     background: -webkit-linear-gradient(45deg, #7282eb 0%, #7282eb 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: fadein 0.8s;
   }
 
   @media screen and (max-width: 768px) {
@@ -50,6 +51,7 @@ export const SocialIconLink = styled.a`
   margin: 1rem;
 
   &:hover {
+    animation: fadein 0.8s;
     color: ${(props) =>
       (props.email && '#99a3e8') ||
       (props.github && '#767676') ||
