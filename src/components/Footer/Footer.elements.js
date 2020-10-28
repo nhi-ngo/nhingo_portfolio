@@ -23,7 +23,7 @@ export const ContactLink = styled.a`
   color: #fff;
   font-weight: 500;
   text-decoration: none;
-  font-size: 6vw;
+  font-size: 6rem;
   white-space: nowrap;
   transition: color 150ms ease-out;
 

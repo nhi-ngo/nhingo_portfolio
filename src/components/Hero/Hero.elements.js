@@ -31,7 +31,7 @@ export const HeroTitleWrap = styled.div`
 `
 export const HeroTitle = styled.h1`
   color: #27303b;
-  font-size: 7.3vmin;
+  font-size: 6vmin;
   font-weight: 500;
   line-height: 1;
 `

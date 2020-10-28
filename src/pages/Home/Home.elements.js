@@ -13,16 +13,16 @@ export const ProjectsWrapper = styled.section`
 export const ProjectsHeading = styled.h1`
   background-color: #1e1d20;
   color: #fff;
-  font-size: 7vmin;
+  font-size: 4.5rem;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.09rem;
+  letter-spacing: 0.03rem;
   padding: 4rem 2rem 3rem;
   text-align: center;
   position: relative;
   display: block;
 
   @media screen and (max-width: 768px) {
-    font-size: 4.5vh;
+    font-size: 4vh;
   }
 `
