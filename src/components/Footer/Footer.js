@@ -3,8 +3,6 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 
 import {
-  ContactContainer,
-  ContactLink,
   FooterContainer,
   SocialIcons,
   SocialIconLink,
@@ -14,12 +12,6 @@ import {
 function Footer() {
   return (
     <FooterContainer>
-      <ContactContainer>
-        <ContactLink href="mailto:nhingo.y@gmail.com" target="_blank" email>
-          Let's connect
-        </ContactLink>
-      </ContactContainer>
-
       <SocialIcons>
         <SocialIconLink href="mailto:nhingo.y@gmail.com" target="_blank" email>
           <HiOutlineMail />
@@ -38,7 +30,7 @@ function Footer() {
         </SocialIconLink>
       </SocialIcons>
 
-      <WebsiteRights>© 2020 Nhi Ngo</WebsiteRights>
+      <WebsiteRights>©2021 Nhi Ngo</WebsiteRights>
     </FooterContainer>
   )
 }

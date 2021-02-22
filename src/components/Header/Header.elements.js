@@ -1,59 +1,37 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { lighten } from 'polished'
-
-export const HeaderWrap = styled.header`
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 3;
-
-  @media screen and (max-width: 520px) {
-    padding: 2rem 1rem 4rem;
-  }
-`
 
 export const HeaderContainer = styled.div`
-  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;
 `
 
 export const HeaderLogo = styled(Link)`
-  color: #27303b;
-  font-size: 2.1rem;
-  font-weight: 500;
-  line-height: 1;
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
   text-decoration: none;
   cursor: pointer;
+
+  &:hover {
+    color: #8c8c8c;
+  }
 `
 
 export const HeaderLink = styled(Link)`
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1.4rem;
-  color: ${lighten(0.1, '#607CC7')};
+  font-weight: 300;
+  font-size: 24px;
+  color: black;
   transition: color 250ms ease-out;
   cursor: pointer;
 
   &:hover {
-    background: -webkit-linear-gradient(-133deg, #99a3e8 0%, #8fbbe4 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #8c8c8c;
   }
-
-  @media screen and (max-width: 430px) {
-    font-size: 1.2rem;
-  }
-`
-
-export const HeaderText = styled(HeaderLink)`
-  display: block;
-`
-
-export const HeaderList = styled.ul`
-  list-style: none;
 `

@@ -4,52 +4,50 @@ import {
   AboutInfo,
   AboutContainer,
   AboutTitle,
+  AboutImg,
+  AboutImgContainer,
   AboutText,
-  Skills,
-  SkillTitle,
-  SkillTags,
-  Tag,
 } from './About.elements'
 
 function About() {
   return (
     <AboutWrap>
       <AboutContainer>
-        <AboutTitle>Hello! I'm Nhi Ngo.</AboutTitle>
+        <AboutImgContainer>
+          <AboutImg className="img-1" src="./images/portrait.jpeg" alt="portrait" />
+        </AboutImgContainer>
+
         <AboutInfo>
-          <AboutText>
-            I started my career as an accountant before venturing into the dynamic
-            world of web development. From the moment I produced "Hello World" in the
-            console of my first website, I knew I was hooked. What started with a
-            simple "Hello World" has become a full-fledged passion that only gets
-            more exciting as time goes by.
+          <AboutTitle>HELLO,</AboutTitle>
+          <AboutText style={{ fontWeight: 'bolder' }}>
+            I am a front-end developer with an accounting background. In other words,
+            I went to accounting school and returned a programmer.
           </AboutText>
+
+          <AboutText>Oops.</AboutText>
+
           <AboutText>
-            I am highly adaptable and driven by learning. If there is a problem, I
-            seek ways to fix it. Whether it takes reading a book or learning a new
-            framework, I’ve grown to embrace the challenges that development can
-            bring.
+            From the moment I produced "Hello World" in the console of my first
+            website, I knew I was hooked. What started with a simple "Hello World"
+            has become a full-fledged passion that only gets more exciting as time
+            goes by. My interest is to build responsive websites and web applications
+            with HTML, CSS, JavaScript, and React.
           </AboutText>
+
           <AboutText>
-            When I'm not coding, you'll find me either running, hiking, or playing
-            tennis.
+            My accounting background greatly contributes to my practical thinking
+            process, and increases my curiosity of how individual parts interact with
+            each other behind the scene.
+          </AboutText>
+
+          <AboutText>
+            I'm also... someone who sees the margin of one page is off by 3px, and
+            won’t rest until it’s resolved.
+            <span role="img" aria-label="emoji">
+              🤓
+            </span>
           </AboutText>
         </AboutInfo>
-
-        <Skills>
-          <SkillTitle>
-            Skills & Tools
-            <span style={{ color: '#7282eb' }}>_</span>
-          </SkillTitle>
-          <SkillTags>
-            <Tag>Git</Tag>
-            <Tag>HTML</Tag>
-            <Tag>CSS</Tag>
-            <Tag>JavaScript</Tag>
-            <Tag>React, Redux</Tag>
-            <Tag>Command Line</Tag>
-          </SkillTags>
-        </Skills>
       </AboutContainer>
     </AboutWrap>
   )

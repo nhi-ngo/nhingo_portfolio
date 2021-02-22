@@ -1,42 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-import {
-  HeaderWrap,
-  HeaderContainer,
-  HeaderLogo,
-  HeaderText,
-  HeaderList,
-  HeaderLink,
-} from './Header.elements'
+import { HeaderContainer, HeaderLogo, HeaderLink } from './Header.elements'
 
 function Header() {
-  const [bgColor, setBgColor] = useState('#fff')
-  const [textColor, setTextColor] = useState('#27303b')
-
-  const getStyles = () => {
-    setBgColor('#1e1e20')
-    setTextColor('#fff')
-  }
-
-  const revertStyles = () => {
-    setBgColor('#fff')
-    setTextColor('#27303b')
-  }
-
   return (
-    <HeaderWrap style={{ backgroundColor: bgColor }}>
-      <HeaderContainer>
-        <HeaderLogo to="/" style={{ color: textColor }} onClick={revertStyles}>
-          Nhi Ngo
-          <HeaderText to="/">portfolio</HeaderText>
-        </HeaderLogo>
-        <HeaderList>
-          <HeaderLink to="/about" onClick={getStyles}>
-            about
-          </HeaderLink>
-        </HeaderList>
-      </HeaderContainer>
-    </HeaderWrap>
+    <HeaderContainer>
+      <HeaderLogo to="/">portfolio</HeaderLogo>
+      <HeaderLink to="/about">about</HeaderLink>
+    </HeaderContainer>
   )
 }
 

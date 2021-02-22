@@ -1,28 +1,21 @@
 import React from 'react'
-import Particles from './Particles'
 
-import {
-  HeroWrap,
-  HeroContainer,
-  HeroTitle,
-  HeroTitleWrap,
-  HeroSpan,
-} from './Hero.elements'
+import { HeroTitle, HeroTitleContainer } from './Hero.elements'
 
 function Hero() {
   return (
-    <HeroWrap>
-      <HeroContainer>
-        <HeroTitleWrap>
-          <HeroTitle>
-            My name is Nhi Ngo &amp; I build
-            <HeroSpan> things </HeroSpan>
-            on the web.
-          </HeroTitle>
-        </HeroTitleWrap>
-      </HeroContainer>
-      <Particles />
-    </HeroWrap>
+    <div>
+      <HeroTitleContainer>
+        <HeroTitle>
+          hi! i'm {' '}
+          <span style={{ fontWeight: '400' }}>nhi ngo</span>,
+          <br />
+          i'm a {' '}
+          <span style={{ fontWeight: '400' }}>front-end developer</span> based in New York.
+        </HeroTitle>
+      </HeroTitleContainer>
+      {/* <Particles /> */}
+    </div>
   )
 }
 

@@ -1,84 +1,72 @@
 import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+
   & > * {
-    margin: 0 10px 20px;
+    flex: 1;
+    min-width: 350px;
+    margin: 0.5rem;
   }
 `
 export const ProjectCard = styled.div`
-  border-radius: 3px;
-  background-color: #fff;
   overflow: hidden;
-  height: 475px;
-  width: 330px;
-  text-decoration: none;
-  font-size: 0.9rem;
+  width: 710px;
+  height: auto;
+  border-radius: 35px;
+  border: 15px double rgba(243, 241, 239, 1);
+  transition: all 0.2s ease-in-out;
 
-  & > * {
-    margin-bottom: 10px;
-  }
-
-  @media screen and (max-width: 718px) {
-    height: auto;
+  &:hover {
+    box-shadow: 0 5px 15px rgba(189, 195, 199, 1);
   }
 `
 
 export const Img = styled.img`
-  width: 100%;
-  height: 255px;
+  max-width: 100%;
+  max-height: auto;
 `
 
 export const ProjectInfo = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0 1rem;
-  margin-top: 5px;
-
-  & > * {
-    margin-bottom: 10px;
-  }
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  padding: 2rem;
 `
 
 export const Tech = styled.p`
-  background-color: #7282eb;
-  font-weight: 500;
-  color: #fff;
-  border-radius: 3px;
-  padding: 7px;
+  display: flex;
+  align-items: center;
 `
 
-export const Title = styled.h4`
-  font-size: 1.1rem;
-  margin: 6px 0;
-
-  @media screen and (max-width: 718px) {
-    font-size: 1.9vh;
-  }
+export const Title = styled.h3`
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
 `
 
 export const Description = styled.p`
-  font-size: 0.95rem;
-  opacity: 0.7;
-
-  @media screen and (max-width: 718px) {
-    display: none;
-  }
+  margin: 0;
 `
 
-export const LinkContainer = styled.div`
-  display: flex;
+export const LinkContainer = styled.span`
+  padding-left: 10px;
 `
 
 export const ProjectLink = styled.a`
-  font-weight: 700;
-  color: #2a5aa7;
-  background: linear-gradient(transparent 70%, #dbe4ff 0);
+  font-size: 18px;
+  color: rgba(149, 165, 166, 1);
+  background: linear-gradient(transparent 80%, rgba(242, 241, 239, 1) 0);
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 5px;
 
   &:hover {
     color: #222;
-    background: linear-gradient(transparent 70%, #bac8ff 0);
+    background: linear-gradient(transparent 70%, rgba(149, 165, 166, 1) 0);
   }
 `

@@ -1,4 +1,7 @@
 import React from 'react'
+import { HiCode } from 'react-icons/hi'
+import { projects } from '../../data/Projects'
+
 import {
   ProjectsContainer,
   ProjectCard,
@@ -11,27 +14,34 @@ import {
   ProjectLink,
 } from './Projects.elements'
 
-const Projects = ({ project }) => {
-  const { title, description, img, alt, tech, code, live } = project
-
+const Projects = () => {
   return (
     <ProjectsContainer>
-      <ProjectCard>
-        <Img src={img} alt={alt} />
-        <ProjectInfo>
-          <Tech>{tech}</Tech>
-          <Title>{title}</Title>
-          <Description>{description}</Description>
-          <LinkContainer>
-            <ProjectLink href={code} target="_blank" aria-label="code">
-              code
-            </ProjectLink>
-            <ProjectLink href={live} target="_blank" aria-label="live">
-              live
-            </ProjectLink>
-          </LinkContainer>
-        </ProjectInfo>
-      </ProjectCard>
+      {projects.map(({ title, description, img, alt, tech, code, live }) => (
+        <ProjectCard key={title}>
+          <Img src={img} alt={alt} />
+
+          <ProjectInfo>
+            <Title>
+              {title}
+              <LinkContainer>
+                <ProjectLink href={code} target="_blank" aria-label="code">
+                  code
+                </ProjectLink>
+                <span style={{ color: 'rgba(149, 165, 166, 1)' }}>|</span>{' '}
+                <ProjectLink href={live} target="_blank" aria-label="live">
+                  live
+                </ProjectLink>
+              </LinkContainer>
+            </Title>
+            <Tech>
+              <HiCode size={40} style={{ paddingRight: '5px' }} />
+              {tech}
+            </Tech>
+            <Description>{description}</Description>
+          </ProjectInfo>
+        </ProjectCard>
+      ))}
     </ProjectsContainer>
   )
 }
