@@ -12,34 +12,13 @@ export const projects = [
   },
 
   {
-    title: 'Quick Notes Taking',
+    title: 'Cakes API',
     description:
-      'Quick-Notes is a simple social media application that allows users to capture quick thoughts that they come across in order to revisit later.',
-    tech: 'React, MongoDB, Node, Express',
-    code: 'https://github.com/nhi-ngo/quick-notes-taking',
-    live: 'https://quick-notes-taking.netlify.app/',
-    img: '/images/notes.png',
-    alt: 'screenshot of notes app',
+      'In the mood to bake? Well, break out the butter and the rolling pins because I have plenty of recipes for you to try! Take a look at the Cakes API for a single random cake recipe or for all the cake recipes your heart desires!',
+    tech: 'React, Node, Express',
+    code: 'https://github.com/nhi-ngo/cakes-api',
+    live: 'https://my-cake-client.herokuapp.com/',
+    img: '/images/cakes.png',
+    alt: 'screenshot api',
   },
-
-  // {
-  //   title: 'TMDb Movie Search',
-  //   description:
-  //     'A responsive React app that performs suggestions and loads data from The Movie Database API.',
-  //   tech: 'React, React-Bootstrap-Typeahead',
-  //   code: 'https://github.com/nhi-ngo/movie-tmdb-react',
-  //   live: 'https://movie-tmdb-react.netlify.app/',
-  //   img: '/images/movie.png',
-  //   alt: 'screenshot of frontend page',
-  // },
-
-  // {
-  //   title: 'Christmas Countdown',
-  //   description: 'Personal portfolio (the source for this website).',
-  //   tech: 'React',
-  //   code: 'https://github.com/nhi-ngo/nhingo_portfolio',
-  //   live: 'https://www.nhingo.com/',
-  //   img: '/images/christmas.png',
-  //   alt: 'screenshot of portfolio',
-  // },
 ]
