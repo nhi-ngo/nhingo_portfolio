@@ -23,12 +23,11 @@ export const ProjectCard = styled.div`
   border: 15px double rgba(243, 241, 239, 1);
   box-shadow: 0 20px 20px -17px rgba(189, 195, 199, 1);
   transition: all 0.2s ease-in-out;
+  background-color: white;
 
   &:hover {
     box-shadow: 0 20px 35px -16px rgba(189, 195, 199, 1);
-    /* background-color: darken(#fafafa, 2%); */
     transform: translateY(-5px);
-    /* transition: all 0.3s; */
   }
 `
 
@@ -40,7 +39,7 @@ export const Img = styled.img`
 export const ProjectInfo = styled.div`
   font-family: 'Open Sans', sans-serif;
   color: #333;
-  padding: 2rem;
+  padding: 1.5rem;
 `
 
 export const Tech = styled.p`
