@@ -36,7 +36,7 @@ function About() {
 
           <AboutText>
             My accounting background greatly contributes to my practical thinking
-            process, and increases my curiosity of how individual parts interact with
+            process, and increases my curiosity about how individual parts interact with
             each other behind the scene.
           </AboutText>
 
