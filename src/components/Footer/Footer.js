@@ -30,7 +30,7 @@ function Footer() {
         </SocialIconLink>
       </SocialIcons>
 
-      <WebsiteRights>©2021 Nhi Ngo</WebsiteRights>
+      <WebsiteRights>{`©${new Date().getFullYear()} Nhi Ngo`}</WebsiteRights>
     </FooterContainer>
   )
 }
