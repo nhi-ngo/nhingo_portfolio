@@ -2,12 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 
-import {
-  FooterContainer,
-  SocialIcons,
-  SocialIconLink,
-  WebsiteRights,
-} from './Footer.elements'
+import { FooterContainer, SocialIcons, SocialIconLink } from './Footer.elements'
 
 function Footer() {
   return (
@@ -29,8 +24,6 @@ function Footer() {
           <FaLinkedinIn />
         </SocialIconLink>
       </SocialIcons>
-
-      <WebsiteRights>{`©${new Date().getFullYear()} Nhi Ngo`}</WebsiteRights>
     </FooterContainer>
   )
 }

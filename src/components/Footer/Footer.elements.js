@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const FooterContainer = styled.div`
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   color: #333;
   display: flex;
   flex-direction: column;

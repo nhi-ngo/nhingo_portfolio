@@ -6,7 +6,7 @@ export const projects = [
       'State of Safety displays historical US state-level data from the FBI Crime Data API to show trends for several types of crimes.',
     tech: 'React, D3, Material-UI',
     code: 'https://github.com/chingu-voyages/v26-geckos-team-02',
-    live: 'https://stateofsafety.netlify.app/',
+    live: 'https://sosstateofsafety.netlify.app/',
     img: '/images/crime1.png',
     alt: 'screenshot of state of safety',
   },
